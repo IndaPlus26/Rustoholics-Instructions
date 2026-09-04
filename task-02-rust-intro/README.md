@@ -57,7 +57,7 @@ _(optional fun)_:
 - [Quantum](https://open.kattis.com/problems/quantum)
 
 _(optional challenge)_:
-- _Cyber-Clara och anmälningslistorna_ is a special problem. The Rust [statistics board](https://kth.kattis.com/problems/kth.grupdat.anmalningslistorna/statistics) is littered with +- and ++-students. **Take them down!**
+- _Cyber-Clara och anmälningslistorna_ is a special problem. The Rust [statistics board](https://kth.kattis.com/courses/DD2016/plusplus24/assignments/q4npcz/problems/kth.grupdat.anmalningslistorna/statistics) is littered with +- and ++-students. **Take them down!**
 - A example solution to the Kattis problem [Minimal Scalar Product](https://open.kattis.com/problems/minimumscalar) can be found in `./minimal_scalar_product`. This solution runs at 0.06s. See the [statistics](https://open.kattis.com/problems/minimumscalar/statistics) for the Rust language. As you can see, it's possible to solve this problem in much less time. Write your own solution, which may be based on the example solution, and which runs quicker than 0.06s.
 
 ### Questions
