@@ -26,7 +26,7 @@ pub enum Colour {
 // implemented, along with their parameters and return values.
 pub trait GameTraits {
     /// Initialises a new board with pieces.
-    fn new() -> Game;
+    fn new() -> Self;
 
     /// If the current game state is [`GameState::InProgress`] and the move is legal,
     /// move a piece from `from` to `to` and return the resulting state of the game.
@@ -57,7 +57,7 @@ pub trait GameTraits {
 }
 
 /*
-    WRITE YOUR IMPLEMENTATION OF "ChessGame" BELOW
+    WRITE YOUR IMPLEMENTATION OF "GameTraits" BELOW
 */
 
 pub struct Game {
@@ -119,7 +119,7 @@ impl fmt::Debug for Game {
 
 #[cfg(test)]
 mod tests {
-    use super::ChessGame;
+    use super::GameTraits;
     use super::Game;
     use super::GameState;
 
