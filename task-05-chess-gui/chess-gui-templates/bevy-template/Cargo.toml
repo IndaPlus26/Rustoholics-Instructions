@@ -1,0 +1,19 @@
+# Chess GUI template.
+# Author: Lucas Jansson <lucjan@kth.se>
+# Last updated: 2026-09-24
+
+[package]
+name = "chess-gui-template-bevy"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.98.1"
+description = "A template for a chess game GUI in Bevy"
+keywords = ["game"]
+categories = ["games"]
+
+[dependencies]
+bevy = {
+  version = "0.19.1",
+  default-features = false,
+  features = ["2d", "debug"]  # Make sure to any additional features you need here! See https://github.com/bevyengine/bevy/blob/v0.19.1/docs/cargo_features.md
+}
