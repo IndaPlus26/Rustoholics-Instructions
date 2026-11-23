@@ -87,7 +87,7 @@ end func
 
 ### Prepare Assignment
 
-1) Create a repository named `<KTH_ID>-sorting` and clone it.
+1) Create a repository named `<KTH_ID>-task-11` and clone it.
 2) Navigate into your newly created repository and start writing.
     - Implement the required sorting algorithms!
     - Implement a sorting algorithm of your choice, the sillier the better!
