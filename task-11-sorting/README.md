@@ -34,6 +34,7 @@ while i < length(A)-1
         if A[j] < A[minIndex] then
             minIndex ← j
         end if
+        j ← j + 1
     end while
     if minIndex != i then
         swap A[i] and A[minIndex]
